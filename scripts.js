@@ -5,7 +5,7 @@ let listHTML = '';
 list.forEach((item) => {
   listHTML += `<div class="content">
     <div>Category: ${item.name}</div>
-    <div>Price: ${item.price}</div>
+    <div>Price: ₦${item.price}</div>
     <div>Description: ${item.des}</div>
   </div>`;
 });
@@ -29,7 +29,7 @@ document.getElementById('button').addEventListener("click", ()=>{
     listHTML += `
      <div class="content">
       <div>Category: ${ol.name}</div>
-      <div>Price: ${ol.price}</div>
+      <div>Price: ₦${ol.price}</div>
       <div>Description: ${ol.des}</div>
 </div>
     `;
